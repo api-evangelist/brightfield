@@ -1,8 +1,14 @@
 aid: brightfield
 name: Brightfield
-description: 'Brightfield is a company surfaced as a portfolio company of sapphire-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: hr-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Brightfield is an extended-workforce intelligence company whose TDX
+  (Talent Data Exchange) and TDX AI platform give enterprises data, automation, and
+  precision over contingent-labor and statement-of-work (SOW) spending across 100+
+  countries. Products include Rate Intelligence, Rate Card Manager, SOW Rate Insights,
+  SOW Quality and Risk Analytics, Supplier Scorecard, and an ROI Dashboard, built on
+  transaction-level data from 700+ companies and $500B+ of global spend. Founded and
+  led by CEO Jason Ezratty and headquartered in Washington, DC, Brightfield is backed
+  by Sapphire Ventures. The product is delivered as a login-gated SaaS application;
+  no public developer API or documentation surface is published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/brightfield/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69c3257a5ec00f8bd9167e87/69e6044e9feb22c7fa59f4cd_Webclip.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Hr Tech
+- Workforce Intelligence
+- Contingent Workforce
+- Procurement
+- Analytics
+- Statement of Work
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.brightfield.com/
+- type: About
+  url: https://www.brightfield.com/about
+- type: Login
+  url: https://ui.talentdataexchange.com/
+- type: TermsOfService
+  url: https://www.brightfield.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.brightfield.com/privacy-policy
+- type: TrustCenter
+  url: https://trust.brightfield.com/
+- type: TrustCenter
+  name: Trust center artifact
+  url: security/brightfield-trust-center.yml
+- type: Compliance
+  url: https://trust.brightfield.com/
+- type: Compliance
+  name: Conformance artifact
+  url: conformance/brightfield-conformance.yml
+- type: DomainSecurity
+  url: security/brightfield-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

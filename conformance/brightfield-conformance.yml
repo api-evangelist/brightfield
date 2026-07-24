@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.brightfield.com/ + https://www.brightfield.com/security
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 2 report published on trust.brightfield.com
+- id: soc-for-cybersecurity
+  conforms: true
+  evidence: SOC for Cybersecurity attestation listed on trust center
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001 with Statement of Applicability on trust center
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance stated on trust center and security page
+- id: ccpa
+  conforms: true
+  evidence: CCPA compliance stated on trust center and security page
+- id: nist-ai-rmf
+  conforms: true
+  evidence: NIST AI Risk Management Framework listed on trust center
+- id: saml2-sso
+  conforms: true
+  evidence: SAML 2.0 SSO (Okta, Azure AD, Ping, OneLogin, Keycloak) documented on security page
+- id: hipaa
+  conforms: false
+  evidence: not listed on trust center
+- id: pci-dss
+  conforms: false
+  evidence: not listed on trust center

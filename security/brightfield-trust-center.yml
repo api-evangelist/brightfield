@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.brightfield.com/
+url: https://trust.brightfield.com/
+platform: SafeBase
+certifications:
+- SOC 2 Type 2
+- SOC for Cybersecurity
+- ISO/IEC 27001
+- GDPR
+- CCPA
+- NIST AI RMF
+documents:
+- Data Flow Diagram (DFD)
+- Network Diagram
+- SOC 2 Report
+- ISO/IEC 27001 Statement of Applicability
+- Data Security documentation
+- Privacy Policy
+- Service-Level Agreement
+evidence:
+- source: https://trust.brightfield.com/
+  keywords:
+  - soc 2 type 2
+  - soc for cybersecurity
+  - iso/iec 27001
+  - trust center
+  - gdpr
+  - ccpa
+  - nist ai rmf
